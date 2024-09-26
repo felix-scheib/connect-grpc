@@ -1,0 +1,5 @@
+[tools]
+'protoc' = 'latest'
+'bun' = 'latest'
+'npm:@bufbuild/protoc-gen-es' = 'latest'
+'npm:@connectrpc/protoc-gen-connect-es' = 'latest'

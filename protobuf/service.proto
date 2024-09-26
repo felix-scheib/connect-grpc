@@ -1,0 +1,16 @@
+syntax = "proto3";
+package service;
+
+service Service {
+    rpc Echo(Request) returns (Response);
+    rpc ToLower(Request) returns (Response);
+    rpc ToUpper(Request) returns (Response);
+}
+
+message Request {
+    string message = 10;
+}
+
+message Response {
+    string message = 10;
+}
